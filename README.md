@@ -39,7 +39,7 @@ learn more about Angular2 and what the community needs.
     * Basic rendering should be as easy (for devs) as configuring the server + putting a server:true annotation in any top level components you want to pre-render on the server side.
 * Isomorphic data retrieval
     * Isomorphic view rendering requires isomorphic data retrieval
-* Server framework agnostics
+* Server framework agnostic
     * While this will be only for Node.js back ends, we should be able to easily use any server side framework (i.e. Express, Hapi, Koa, etc.)
 
 In addition to these primary goals, there are several secondary goals that we will try our best to include in the final solution:
@@ -94,6 +94,7 @@ Angular2. Other issues are going to be problems regardless of what is in Angular
 * Adding annotations - How do we add custom annotations? How does the server read annotations?
 * Server rendering - How much of Angular core can we re-use?
 * Stuff outside Angular - Assuming we can get Angular core to do the bulk of rendering and we can re-use the router to some degree, what would be left to implement on the server to get this working with Express, Hapi, etc.
+* Research Ember FastBoot - It is clear how React does server rendering, but we should do research into the low level details of Ember's server rendering solution to see how they solved some of these problems.
 
 ## Logistics
 
