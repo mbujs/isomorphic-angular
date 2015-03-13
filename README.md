@@ -90,6 +90,7 @@ Angular2. Other issues are going to be problems regardless of what is in Angular
 
 * Routing - Can we run the new router on the server? Are there any restrictions when we want server rendering? Can the router wait on a resolve for async?
 * Data retrieval - Do we need to have a dedicated function for all components or can we just execute the entire component? My experience, FYI, is that since there are many parts of a component that are client only (i.e. event handlers), you need a dedicated data retrieval function that can be executed on the server or client.
+    * Do we want simple custom interface that can be adapted to diff implementations or just pick something like Falcor?
 * Lazy loading - Somewhat related to data retrieval. Basically, although we could allow for async rendering on the server side, is that a good idea? We either need to:
     1. Not allow any async loading on the server
     1. Figure out way to do async on the client, but sync on the server
